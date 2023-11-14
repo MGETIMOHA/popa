@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2</title>
+</head>
+<body>
+    <img src="kot.jpeg" id="k">
+    <img src="pies.jpeg" id="p">
+    <img src="lew.jpeg" id="l">
+    <button id="P" onclick="K()">Kot</button>
+    <button id="U" onclick="P()">Pies</button>
+    <button id="U" onclick="L()">Lew</button>
+    <script>
+
+        kot = document.getElementById("k");
+        pies = document.getElementById("p");
+        lew = document.getElementById("l");
+          kot.style.display = "none";
+          pies.style.display = "none";
+          lew.style.display = "none";
+
+        function K()
+        {
+          kot.style.display = "block";
+          pies.style.display = "none";
+          lew.style.display = "none";
+        }
+        function P()
+        {
+            kot.style.display = "none";
+          pies.style.display = "block";
+          lew.style.display = "none";
+        }
+        function L()
+        {
+            kot.style.display = "none";
+          pies.style.display = "none";
+          lew.style.display = "block";
+        }
+
+    </script>
+</body>
+</html>

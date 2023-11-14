@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1</title>
+</head>
+<body>
+    <img src="rb.jpeg" id="I">
+    <button id="P" onclick="Pokaz()">Pokaz</button>
+    <button id="U" onclick="Ukryj()">Ukryj</button>
+    <script>
+
+        arr = document.getElementById("I");
+
+        function Pokaz()
+        {
+          arr.style.display = "block";
+        }
+        function Ukryj()
+        {
+            arr.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
